@@ -1,0 +1,44 @@
+.menu-img-container{
+    display: none;
+}
+.header-nav{
+   display: block;
+   grid-column: 2/4;
+   justify-self: end;
+   align-self: center;
+   margin-inline-end: 76px;
+}
+
+.header-ul{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+.header-ul li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    height: 30px;
+}
+header p{
+    align-self: center;
+    margin-inline-start: 77px;
+    margin-block-start: 0;
+}
+
+
+main{
+    margin-block-start: 40px;
+    margin-inline-end: 58px;
+    margin-inline-start: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info-container{
+    margin: 0;
+    margin-inline-start: 77px;
+    align-self: center;
+}
+
